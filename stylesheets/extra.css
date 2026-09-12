@@ -1,0 +1,27 @@
+:root {
+  --unipico-green: #075e4a;
+  --unipico-paper: #f7f4ec;
+  --unipico-mint: #cfe8d9;
+  --unipico-orange: #d95732;
+}
+
+[data-md-color-scheme="unipico"] {
+  --md-primary-fg-color: var(--unipico-green);
+  --md-primary-fg-color--light: #19775f;
+  --md-primary-fg-color--dark: #064536;
+  --md-accent-fg-color: var(--unipico-orange);
+  --md-default-bg-color: var(--unipico-paper);
+  --md-typeset-a-color: var(--unipico-green);
+}
+
+.md-header { box-shadow: none; }
+.md-typeset h1, .md-typeset h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -.025em;
+}
+.md-typeset h1 { color: var(--unipico-green); font-size: 3.0rem; line-height: 1; }
+.md-typeset h2 { font-size: 1.5rem; margin-top: 1.0em; }
+.md-typeset .md-button { border-radius: .15rem; }
+.md-typeset .md-button--primary { background: var(--unipico-green); border-color: var(--unipico-green); }
+.md-footer { margin-top: 2rem; }
+
