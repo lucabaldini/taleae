@@ -4,6 +4,8 @@ site_url: https://unipico.codeberg.page/
 repo_url: https://codeberg.org/unipico/pages
 repo_name: unipico/pages
 site_dir: _site
+remote_name: origin
+remote_branch: pages
 
 theme:
   name: material
