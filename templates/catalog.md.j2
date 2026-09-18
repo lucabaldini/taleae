@@ -1,0 +1,10 @@
+
+# Lecture notes
+
+This catalogue contains {{ books | length }} works.
+
+| Title | Author(s) | Language | License |
+|---|---|---|---|
+{% for book in books -%}
+| [{{ book.title }}]({{ book.id }}/) | {{ book.author_names }} | {{ book.language }} | {{ book.license.name }} |
+{% endfor %}

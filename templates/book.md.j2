@@ -1,0 +1,37 @@
+---
+title: "{{ book.title }}"
+---
+
+# {{ book.title }}
+
+
+## Authors
+
+{% for author in book.authors %}
+- **{{ author.name }}**{% if author.email %} — [{{ author.email }}](mailto:{{ author.email }}){% endif %}
+{% endfor %}
+
+## Information
+
+| Field | Value |
+|---|---|
+| Language | {{ book.language }} |
+| License | {{ book.license }} |
+
+
+## Links
+
+{% if book.links.html is defined %}
+- [Read online]({{ book.links.html }})
+{% endif %}
+{% if book.links.pdf is defined%}
+- [Download PDF]({{ book.links.pdf }})
+{% endif %}
+
+{% if book.topics %}
+## Topics
+
+{% for topic in book.topics %}
+`{{ topic }}`{% if not loop.last %} · {% endif %}
+{% endfor %}
+{% endif %}
