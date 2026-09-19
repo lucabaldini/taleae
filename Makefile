@@ -3,3 +3,6 @@ preview:
 
 publish:
 	mkdocs gh-deploy --force
+
+clean:
+	rm -rf _site
