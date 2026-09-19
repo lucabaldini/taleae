@@ -1,10 +1,13 @@
+# Catalogo
 
-# Lecture notes
+!!! warning "In costruzione"
+    Questa pagina è solo un abbozzo in attesa di definire esattamente
+    formato e contenuti da inserire.
 
-This catalogue contains {{ books | length }} works.
+Il catalogo contiene {{ books | length }} opere.
 
-| Title | Author(s) | Language | License |
+| Autori | Titolo | Consultazione |  |
 |---|---|---|---|
 {% for book in books -%}
-| [{{ book.title }}]({{ book.id }}/) | {{ book.author_names }} | {{ book.language }} | {{ book.license.name }} |
+| {{ book.author_names }} | [{{ book.title }}]({{ book.id }}/) | [html]({{ book.links.html }}), [pdf]({{ book.links.pdf }}), [repo]({{ book.links.repo }}) |
 {% endfor %}
