@@ -4,34 +4,20 @@ title: "{{ book.title }}"
 
 # {{ book.title }}
 
-
-## Authors
-
-{% for author in book.authors %}
-- **{{ author.name }}**{% if author.email %} — [{{ author.email }}](mailto:{{ author.email }}){% endif %}
-{% endfor %}
-
-## Information
-
-| Field | Value |
-|---|---|
-| Language | {{ book.language }} |
-| License | {{ book.license }} |
-
-
-## Links
+## Link
 
 {% if book.links.html is defined %}
-- [Read online]({{ book.links.html }})
+- [Leggi online]({{ book.links.html }})
 {% endif %}
 {% if book.links.pdf is defined%}
-- [Download PDF]({{ book.links.pdf }})
+- [Scarica il pdf]({{ book.links.pdf }})
 {% endif %}
 
-{% if book.topics %}
-## Topics
+## Informazioni
 
-{% for topic in book.topics %}
-`{{ topic }}`{% if not loop.last %} · {% endif %}
-{% endfor %}
+* **Autori**: {% for author in book.authors %}{{ author.name }}{% if author.email %} ([{{ author.email }}](mailto:{{ author.email }})){% endif %} {% endfor %}
+* **Lingua**: {{ book.language }}
+* **Licenza**: [{{ book.license.name }}]({{ book.license.url }})
+{% if book.topics %}
+* **Argomenti**: {% for topic in book.topics %}{{ topic }}{% if not loop.last %}, {% endif %}{% endfor %}.
 {% endif %}
