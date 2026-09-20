@@ -1,0 +1,17 @@
+title: Appunti di Analisi Matematica Uno
+
+authors:
+  - name: Emanuele Paolini
+    email: emanuele.paolini@unipi.it
+
+language: it
+
+license:
+  name: CC BY-NC-SA 4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+links:
+  pdf: https://github.com/paolini/AnalisiUno/releases/download/2026-05-12/AnalisiUno.pdf
+  repo: https://github.com/paolini/AnalisiUno
+
+topics:
