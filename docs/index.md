@@ -1,11 +1,11 @@
-# Didattica universitaria libera
+# Didattica libera
 
 **UniPico è un contenitore di materiale didattico universitario
 rilasciato sotto licenze libere e mirato, oltre che alla semplice fruizione,
 al ri-utilizzo, al miglioramento continuo ed alla re-distribuzione.**
 
 
-## Perché il nome UniPico?
+## Perché UniPico?
 
 Un piccolo omaggio all'umanista Giovanni Pico della Mirandola, noto, tra le
 altre cose, per la sua cultura enciclopedica e per la memoria prodigiosa.
@@ -22,7 +22,7 @@ l'unione di tanti piccoli progetti.[^1]
 [Leggi il nostro manifesto](manifesto.md){ .md-button }
 
 
-## Cosa offre UniPico?
+## Cosa trovo?
 
 **Per tutti**: materiale didattico di vario tipo, disponibile liberamente
 (dove *liberamente* è inteso nel senso letterale della parola, e non
