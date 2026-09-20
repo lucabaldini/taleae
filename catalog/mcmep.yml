@@ -13,9 +13,9 @@ license:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 
 links:
-  repo: https://codeberg.org/unipico/mcmep
   html: https://unipico.codeberg.page/mcmep/
   pdf: https://unipico.codeberg.page/mcmep/mcmep.pdf
+  repo: https://codeberg.org/unipico/mcmep
 
 topics:
   - scientific computing

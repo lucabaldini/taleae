@@ -6,8 +6,10 @@
 
 Il catalogo contiene {{ books | length }} opere.
 
-| Autori | Titolo | Consultazione |  |
-|---|---|---|---|
+| Autor* | Titolo | Link per la consultazione |
+|---|---|---|
 {% for book in books -%}
-| {{ book.author_names }} | [{{ book.title }}]({{ book.id }}/) | [html]({{ book.links.html }}), [pdf]({{ book.links.pdf }}), [repo]({{ book.links.repo }}) |
+| {{ book.author_names }} | [{{ book.title }}]({{ book.id }}/) | {% for name, url in book.links.items() -%}
+ [{{ name }}]({{ url }}){% if not loop.last %}, {% endif %}
+{%- endfor %} |
 {% endfor %}
