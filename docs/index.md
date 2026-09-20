@@ -32,7 +32,7 @@ possibile, meccanismi di compilazione e rilascio riproducibili.
 **Per i docenti**: una serie di semplici linee guida e di istruzioni tecniche
 dettagliate su come contribuire praticamente al progetto.
 
-[Esplora il catalogo](catalogue.md){ .md-button .md-button }
+[Esplora il catalogo](catalog/index.md){ .md-button .md-button }
 
 
 [^1]: Full disclaimer: quando abbiamo creato la nuova organizzazione su
