@@ -569,26 +569,25 @@
 <p>Chiunque abbia del materiale che si allinei con le idee di base del
 progetto è benvenuto&mdash;l'unico modo per avere veramente visibilità
 è raggiungere la massa critica.</p>
-<p>Il modello che abbiamo in mente è semplice: <em>ciascun nuovo progetto nel
-catalogo corrisponde ad un repositorio separato nell'organizzazione
-<a href="https://codeberg.org/unipico">unipico</a> su codeberg.</em>
-All'interno di ciascun repositorio, i proprietari hanno piena autonomia
+<p>Il modello che abbiamo in mente è semplice: <em>ciascun progetto vive
+indipendentemente, e UniPico funge semplicemente da aggregatore</em>.
+All'interno di ciascun progetto, i proprietari hanno piena autonomia
 di struttura e contenuti. La parola d'ordine è <em>elasticità</em>.</p>
 <h2 id="requisiti-minimi">Requisiti minimi</h2>
 <p>Ci sono due semplici cose che ci sentiamo di richiedere in modo non
-negoziabile:</p>
+negoziabile, per non vanificare lo scopo ultimo del progetto:</p>
 <ol>
 <li>il materiale deve essere rilasciato sotto una licenza ben identificabile
    che, oltre alla consultazione, permetta la modifica e la
-   redistribuzione&mdash;<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> e <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL 3.0</a>
-   sono due scelte ovvie (ma non le uniche);</li>
-<li>il repositorio non deve contenere file in formati proprietari,
-   o che non siano leggibili con strumenti <em>liberi</em>.</li>
+   redistribuzione&mdash;<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+   è la scelta ovvia, ma ci sono molte opzioni;</li>
+<li>il materiale non deve includere file in formati proprietari, o che non siano
+   leggibili con strumenti <em>liberi</em>.</li>
 </ol>
-<p>Da questo punto di vista un repositorio con un singolo file pdf è
-perfettamente accettabile, purché il testo soddisfi la condizione 1. qui
-sopra.</p>
-<p>Le informazioni minime che richiediamo per popolare il catalogo sono:</p>
+<p>Da questo punto di vista un singolo file pdf ospitato sulla propria pagina web
+personale, tanto per fare un esempio, è perfettamente accettabile, purché il
+testo soddisfi la condizione 1. qui sopra.</p>
+<p>Le informazioni minime che richiediamo per popolare il catalogo sono (TBC):</p>
 <ul>
 <li>titolo ed autore;</li>
 <li>lingua (e.g., italiano, inglese);</li>
@@ -596,17 +595,21 @@ sopra.</p>
 <li>tecnologia utilizzata (e.g., <a href="https://latex3.github.io/">LaTeX</a>,
   <a href="https://www.libreoffice.org/">LibreOffice</a>,
   <a href="https://quarto.org/">quarto</a>,
-  <a href="https://www.mkdocs.org/">MkDocs</a>);</li>
-<li>link al repositorio.</li>
+  <a href="https://www.mkdocs.org/">MkDocs</a>,
+  <a href="https://jupyterbook.org/">JupyterBook</a>,
+  <a href="https://typst.app/">typst</a>);</li>
+<li>link ai prodotti finali;</li>
+<li>link al repositorio (se disponibile);</li>
 </ul>
 <h2 id="buone-pratiche">Buone pratiche</h2>
-<p>Detto questo, il nostro progetto punta ad essere molto di più di una
-semplice collezione di file pdf. Queste sono le raccomandazioni per massimizzare
+<p>Detto questo, il nostro progetto punta ad essere molto di più di una semplice
+collezione di link a file pdf. Queste sono le raccomandazioni per massimizzare
 impatto e ri-usabilità:</p>
 <ol>
 <li>se il materiale nella sua forma finale è ottenuto processando file
    sorgente di tipo diverso (e.g., LaTeX, o markup), allora raccomandiamo che
-   questi ultimi siano inclusi nel repositorio con licenza opportuna;</li>
+   questi ultimi siano impacchettati e resi disponibili in un repositorio
+   dedicato con licenza opportuna;</li>
 <li>se il prodotto finale contiene grafici e figure, raccomandiamo che
    queste siano incluse separatamente nel repositorio in una versione ad alta
    risoluzione (e, ove possibile, in formato vettoriale);</li>
@@ -615,12 +618,16 @@ impatto e ri-usabilità:</p>
    opportuna;</li>
 <li>se il processo di generazione del prodotto finale non è del tutto banale,
    allora idealmente raccomandiamo un minimo sforzo di documentazione per
-   permettere all'utente di riprodurlo.</li>
+   permettere all'utente di riprodurlo;</li>
+<li>se possibile, raccomandiamo che il repositorio sia ospitato da un servizio
+   che rispetti la libertà dell'utente, come <a href="https://codeberg.org">Codeberg</a>.</li>
 </ol>
 <p>Capiamo perfettamente che ciascuna di queste raccomandazioni implica un carico
 di lavoro aggiuntivo sull'autore, e tuttavia riteniamo che, ove praticamente
 possibile, questo sforzo addizionale sia più che bilanciato dall'impatto
 positivo sulla comunità.</p>
+<p>Uno degli scopi di questo progetto è proprio abbassare il livello di ingresso
+a queste (che noi consideriamo) buone pratiche!</p>
 <p><a class="md-button md-button" href="../tutorials/">Vai alle guide pratiche</a></p>
 
 
