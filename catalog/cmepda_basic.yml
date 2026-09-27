@@ -11,9 +11,9 @@ license:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 
 links:
-  html: https://unipico.codeberg.page/cmepda-basic/
-  pdf: https://unipico.codeberg.page/cmepda-basic/cmepda-basic.pdf
-  repo: https://codeberg.org/unipico/cmepda-basic
+  html: https://lbaldini.codeberg.page/cmepda-basic/
+  pdf: https://lbaldini.codeberg.page/cmepda-basic/cmepda-basic.pdf
+  repo: https://codeberg.org/lbaldini/cmepda-basic
 
 topics:
   - python programming
