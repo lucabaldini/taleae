@@ -7,10 +7,10 @@ title: "Computing Methods for Experimental Physics and Data Analysis"
 ## Link
 
 
-- [Leggi online](https://unipico.codeberg.page/cmepda-basic/)
+- [Leggi online](https://lbaldini.codeberg.page/cmepda-basic/)
 
 
-- [Scarica il pdf](https://unipico.codeberg.page/cmepda-basic/cmepda-basic.pdf)
+- [Scarica il pdf](https://lbaldini.codeberg.page/cmepda-basic/cmepda-basic.pdf)
 
 
 ## Informazioni

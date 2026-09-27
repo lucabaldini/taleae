@@ -7,10 +7,10 @@ title: "Monte Carlo Methods for Experimental Physics"
 ## Link
 
 
-- [Leggi online](https://unipico.codeberg.page/mcmep/)
+- [Leggi online](https://lbaldini.codeberg.page/mcmep/)
 
 
-- [Scarica il pdf](https://unipico.codeberg.page/mcmep/mcmep.pdf)
+- [Scarica il pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf)
 
 
 ## Informazioni
