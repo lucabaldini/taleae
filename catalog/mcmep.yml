@@ -1,16 +1,12 @@
 title: Monte Carlo Methods for Experimental Physics
 
 authors:
-  - name: Luca Baldini
-    email: luca.baldini@pi.infn.it
-  - name: Elena Graverini
-    email: elena.graverini@unipi.it
+  - author: luca-baldini
+  - author: elena-graverini
 
 language: en
 
-license:
-  name: CC BY-SA 4.0
-  url: https://creativecommons.org/licenses/by-sa/4.0/
+license: CC-BY-SA-4.0
 
 links:
   html: https://lbaldini.codeberg.page/mcmep/
@@ -18,5 +14,8 @@ links:
   repo: https://codeberg.org/lbaldini/mcmep
 
 topics:
-  - scientific computing
   - Monte Carlo methods
+  - simulation
+  - statistics
+
+abstract:

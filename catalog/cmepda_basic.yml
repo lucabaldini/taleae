@@ -1,14 +1,11 @@
 title: Computing Methods for Experimental Physics and Data Analysis
 
 authors:
-  - name: Luca Baldini
-    email: luca.baldini@pi.infn.it
+  - author: luca-baldini
 
 language: en
 
-license:
-  name: CC BY-SA 4.0
-  url: https://creativecommons.org/licenses/by-sa/4.0/
+license: CC-BY-SA-4.0
 
 links:
   html: https://lbaldini.codeberg.page/cmepda-basic/
@@ -17,5 +14,7 @@ links:
 
 topics:
   - python programming
-  - software development
   - scientific computing
+  - software development
+
+abstract:

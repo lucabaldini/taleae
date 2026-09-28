@@ -1,0 +1,27 @@
+authors:
+
+  luca-baldini:
+    name: Luca
+    surname: Baldini
+    institution: Università di Pisa
+    department: Dipartimento di Fisica
+    role: staff
+    email: luca.baldini@unipi.it
+    website: https://osiris.df.unipi.it/~baldini
+
+  elena-graverini:
+    name: Elena
+    surname: Graverini
+    institution: Università di Pisa
+    department: Dipartimento di Fisica
+    role: staff
+    email: elena.graverini@unipi.it
+
+  emanuele-paolini:
+    name: Emanuele
+    surname: Paolini
+    institution: Università di Pisa
+    department: Dipartimento di Matematica
+    role: staff
+    email: emanuele.paolini@unipi.it
+    website: https://web.dm.unipi.it/paolini/
