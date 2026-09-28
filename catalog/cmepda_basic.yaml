@@ -1,7 +1,7 @@
 title: Computing Methods for Experimental Physics and Data Analysis
 
 authors:
-  - author: luca-baldini
+  - luca-baldini
 
 language: en
 
@@ -16,5 +16,3 @@ topics:
   - python programming
   - scientific computing
   - software development
-
-abstract:
