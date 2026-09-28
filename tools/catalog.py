@@ -16,6 +16,7 @@
 """Collection of utilities to parse and process the yaml files for the catalog.
 """
 
+import pathlib
 import yaml
 from enum import StrEnum
 
@@ -102,6 +103,7 @@ class Product(BaseModel):
 
     model_config = ConfigDict(frozen=True, extra="forbid")
 
+    id: str
     title: str
     authors: list[Author]
     language: str
@@ -201,6 +203,17 @@ class Product(BaseModel):
         except InvalidLicenseExpression as error:
             raise ValueError(f"Invalid SPDX licence: {error}") from error
 
+    def author_list(self) -> str:
+        """Return a string with the list of authors, in the form of "A. Surname,
+        B. Surname, C. Surname".
+
+        Returns
+        -------
+        str
+            The list of authors, in the form of "A. Surname, B. Surname, C. Surname".
+        """
+        return ", ".join(author.short_name() for author in self.authors)
+
 
 
 def load_author_registry(file_path: str) -> dict[str, Author]:
@@ -220,18 +233,6 @@ def load_product(file_path: str, author_registry: dict[str: Author]) -> Product:
 
     with open(file_path, "r") as f:
         data = yaml.safe_load(f)
+    data["id"] = pathlib.Path(file_path).stem
     return Product.model_validate(data, context={"author_registry": author_registry})
 
-
-if __name__ == "__main__":
-    import pathlib
-
-    root_dir = pathlib.Path(__file__).resolve().parents[1] / "catalog"
-    author_registry = load_author_registry(root_dir / "_authors.yaml")
-    print(author_registry)
-    for source in sorted(root_dir.glob("*.yaml")):
-        if source.name.startswith("_"):
-            continue
-        print(source)
-        product = load_product(source, author_registry)
-        print(product)

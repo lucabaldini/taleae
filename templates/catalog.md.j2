@@ -4,12 +4,12 @@
     Questa pagina è solo un abbozzo in attesa di definire esattamente
     formato e contenuti da inserire.
 
-Il catalogo contiene {{ books | length }} opere.
+Il catalogo contiene {{ products | length }} opere.
 
-| Autor* | Titolo | Link per la consultazione |
+| Autori | Titolo | Link per la consultazione |
 |---|---|---|
-{% for book in books -%}
-| {{ book.author_names }} | [{{ book.title }}]({{ book.id }}/) | {% for name, url in book.links.items() -%}
+{% for product in products -%}
+| {{ product.author_list() }} | [{{ product.title }}]({{ product.id }}/) | {% for name, url in product.links.items() -%}
  [{{ name }}]({{ url }}){% if not loop.last %}, {% endif %}
 {%- endfor %} |
 {% endfor %}

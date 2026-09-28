@@ -3,16 +3,16 @@ title: "Appunti di Analisi Superiore"
 ---
 
 # Appunti di Analisi Superiore
+### E. Paolini
 
-## Link
+## Link per la consultazione
 
+- [pdf](https://github.com/paolini/analisi-superiore/releases/download/0.9/AnalisiSuperiore.pdf)
+- [repo](https://github.com/paolini/analisi-superiore)
 
-
-- [Scarica il pdf](https://github.com/paolini/analisi-superiore/releases/download/0.9/AnalisiSuperiore.pdf)
 
 
 ## Informazioni
 
-* **Autori**: Emanuele Paolini ([emanuele.paolini@unipi.it](mailto:emanuele.paolini@unipi.it)) 
 * **Lingua**: it
-* **Licenza**: [n/a](n/a)
+* **Licenza**: n/a

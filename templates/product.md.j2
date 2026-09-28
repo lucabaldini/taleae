@@ -1,0 +1,21 @@
+---
+title: "{{ product.title }}"
+---
+
+# {{ product.title }}
+### {{ product.author_list() }}
+
+## Link per la consultazione
+
+{% for name, url in product.links.items() -%}
+- [{{ name }}]({{ url }})
+{% endfor %}
+
+
+## Informazioni
+
+* **Lingua**: {{ product.language }}
+* **Licenza**: {{ product.license }}
+{% if product.topics %}
+* **Argomenti**: {% for topic in product.topics %}{{ topic }}{% if not loop.last %}, {% endif %}{% endfor %}.
+{% endif %}

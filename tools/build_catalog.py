@@ -21,6 +21,9 @@ import jinja2
 from loguru import logger
 
 
+from catalog import load_author_registry, load_product
+
+
 _ROOT = Path(__file__).resolve().parents[1]
 _CATALOG_DIR = _ROOT / "catalog"
 _MARKUP_DIR = _ROOT / "docs" / "catalog"
@@ -37,25 +40,25 @@ def build_catalog():
         keep_trailing_newline=True,
     )
 
-    book_template = env.get_template("book.md.j2")
-    index_template = env.get_template("catalog.md.j2")
-
     _MARKUP_DIR.mkdir(parents=True, exist_ok=True)
 
-    books = []
-    for source in sorted(_CATALOG_DIR.glob("*.yml")):
-        stem = source.stem
-        with source.open(encoding="utf-8") as stream:
-            book = yaml.safe_load(stream)
-            book["id"] = stem
-            book["author_names"] = ", ".join(
-                author["name"] for author in book["authors"]
-            )
-            books.append(book)
-            rendered = book_template.render(book=book)
-            (_MARKUP_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
+    product_template = env.get_template("product.md.j2")
+    catalog_template = env.get_template("catalog.md.j2")
 
-    rendered = index_template.render(books=books)
+    author_registry = load_author_registry(_CATALOG_DIR / "_authors.yaml")
+    products = []
+    for source in sorted(_CATALOG_DIR.glob("*.yaml")):
+        stem = source.stem
+        # Skip the special files that start with an underscore.
+        if stem.startswith("_"):
+            continue
+        product = load_product(source, author_registry)
+        products.append(product)
+        rendered = product_template.render(product=product)
+        (_MARKUP_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
+
+
+    rendered = catalog_template.render(products=products)
     (_MARKUP_DIR / "index.md").write_text(rendered, encoding="utf-8")
 
 

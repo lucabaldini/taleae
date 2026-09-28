@@ -3,20 +3,19 @@ title: "Monte Carlo Methods for Experimental Physics"
 ---
 
 # Monte Carlo Methods for Experimental Physics
+### L. Baldini, E. Graverini
 
-## Link
+## Link per la consultazione
 
+- [html](https://lbaldini.codeberg.page/mcmep/)
+- [pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf)
+- [repo](https://codeberg.org/lbaldini/mcmep)
 
-- [Leggi online](https://lbaldini.codeberg.page/mcmep/)
-
-
-- [Scarica il pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf)
 
 
 ## Informazioni
 
-* **Autori**: Luca Baldini ([luca.baldini@pi.infn.it](mailto:luca.baldini@pi.infn.it)) Elena Graverini ([elena.graverini@unipi.it](mailto:elena.graverini@unipi.it)) 
 * **Lingua**: en
-* **Licenza**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* **Licenza**: CC-BY-SA-4.0
 
-* **Argomenti**: scientific computing, Monte Carlo methods.
+* **Argomenti**: Monte Carlo methods, simulation, statistics.
