@@ -1,27 +1,60 @@
-authors:
 
-  luca-baldini:
-    name: Luca
-    surname: Baldini
-    institution: Università di Pisa
-    department: Dipartimento di Fisica
-    role: staff
-    email: luca.baldini@unipi.it
-    website: https://osiris.df.unipi.it/~baldini
+luca-baldini:
+  name: Luca
+  surname: Baldini
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: staff
+  email: luca.baldini@unipi.it
+  website: https://osiris.df.unipi.it/~baldini
 
-  elena-graverini:
-    name: Elena
-    surname: Graverini
-    institution: Università di Pisa
-    department: Dipartimento di Fisica
-    role: staff
-    email: elena.graverini@unipi.it
+fabio-durastante:
+  name: Fabio
+  surname: Durastante
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: fabio.durastante@unipi.it
+  website: https://fdurastante.github.io/
 
-  emanuele-paolini:
-    name: Emanuele
-    surname: Paolini
-    institution: Università di Pisa
-    department: Dipartimento di Matematica
-    role: staff
-    email: emanuele.paolini@unipi.it
-    website: https://web.dm.unipi.it/paolini/
+elena-graverini:
+  name: Elena
+  surname: Graverini
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: staff
+  email: elena.graverini@unipi.it
+
+emanuele-paolini:
+  name: Emanuele
+  surname: Paolini
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: emanuele.paolini@unipi.it
+  website: https://web.dm.unipi.it/paolini/
+
+maria-chiara-pievatolo:
+  name: Maria Chiara
+  surname: Pievatolo
+  institution: Università di Pisa
+  department: Dipartimento di Scienze Politiche
+  role: staff
+  email: mariachiara.pievatolo@unipi.it
+
+alessandro-pitanti:
+  name: Alessandro
+  surname: Pitanti
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: staff
+  email: alessandro.pitanti@unipi.it
+
+leonardo-robol:
+  name: Leonardo
+  surname: Robol
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: leonardo.robol@unipi.it
+  website: https://web.dm.unipi.it/robol/
