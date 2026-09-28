@@ -51,6 +51,29 @@ class Role(StrEnum):
 class Author(BaseModel):
 
     """Representation of an author of a book.
+
+    Arguments
+    ---------
+    name: str
+        The first name of the author.
+
+    surname: str
+        The surname of the author.
+
+    institution: str
+        The institution of the author.
+
+    department: str
+        The department of the author.
+
+    role: Role
+        The academic role of the author.
+
+    email: EmailStr
+        The email address of the author.
+
+    website: HttpUrl | None
+        The website of the author, if any.
     """
 
     model_config = ConfigDict(frozen=True, extra="forbid")
@@ -99,6 +122,30 @@ class Author(BaseModel):
 class Product(BaseModel):
 
     """Representation of a product in the catalog.
+
+    Arguments
+    ---------
+    id: str
+        The unique identifier of the product.
+
+    title: str
+        The title of the product.
+
+    authors: list[Author]
+        The list of authors of the product.
+
+    language: str
+        The language of the product, in ISO 639-1 (2-digits) format.
+
+    license: str
+        The license of the product, in SPDX format.
+
+    links: dict[str, HttpUrl]
+        The dictionary of links to the product, with the link type as key,
+        and the URL as value.
+
+    topics: list[str]
+        The list of topics of the product, as a list of strings.
     """
 
     model_config = ConfigDict(frozen=True, extra="forbid")
@@ -217,22 +264,20 @@ class Product(BaseModel):
 
 
 def load_author_registry(file_path: str) -> dict[str, Author]:
-
     """Load the authors from a yaml file.
     """
-
-    with open(file_path, "r") as f:
-        data = yaml.safe_load(f)
+    with open(file_path, "r", encoding="utf-8") as input_file:
+        data = yaml.safe_load(input_file)
     return TypeAdapter(dict[str, Author]).validate_python(data)
 
 
 def load_product(file_path: str, author_registry: dict[str: Author]) -> Product:
-
     """Load a single catalog product from a yaml file.
     """
-
-    with open(file_path, "r") as f:
-        data = yaml.safe_load(f)
+    with open(file_path, "r", encoding="utf-8") as input_file:
+        data = yaml.safe_load(input_file)
+    # Add the stem of the file name as the product id, so that the pydantic
+    # validator can pick it up.
     data["id"] = pathlib.Path(file_path).stem
     return Product.model_validate(data, context={"author_registry": author_registry})
 
