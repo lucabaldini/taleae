@@ -9,7 +9,7 @@ Il catalogo contiene {{ products | length }} opere.
 | Autori | Titolo | Link per la consultazione |
 |--------|--------|---------------------------|
 {% for product in products -%}
-| {{ product.author_list() }} | [{{ product.title }}]({{ product.id }}/) | {% for name, url in product.links.items() -%}
+| {{ product.author_list() }} | [{{ product.title }}]({{ product.id }}.md) | {% for name, url in product.links.items() -%}
  [{{ name }}]({{ url }}){% if not loop.last %}, {% endif %}
 {%- endfor %} |
 {% endfor %}
