@@ -6,7 +6,7 @@ obiettivi.
 
 Questa sezione raccoglie link a materiale utile per creare un nuovo repositorio
 o per migrare materiale già esistente nella forma di un repositorio su
-codeberg.
+Codeberg.
 
 
 ## Cosa è un repositorio?
@@ -24,13 +24,18 @@ essere utili per la preparazione di materiale didattico. La lista, va da sé, no
 è esaustiva, e può evolvere nel tempo.
 
 
-### LibreOffice
+### Quarto
 
-[LibreOffice](https://www.libreoffice.org/) è un word processor libero di tipo
-WYSIWYG. In questo caso la struttura del repositorio, almeno nei casi più
-semplici, è banale: il file .odt, il file .pdf e la licenza.
+[quarto](https://quarto.org/) è un sistema di impaginazione e grafica, molto
+adatto per le applicazioni scientifiche e tecniche, basato su un linguaggio
+di markup, e che supporta diversi tipi di output, tra cui html e pdf.
 
-Link al [template LibreOffice](https://codeberg.org/unipico/libreoffice_template)
+Link al [template quarto](https://codeberg.org/unipico/quarto_template).
+
+Link alla guida:
+[html](https://unipico.codeberg.page/quarto_guide/),
+[pdf](https://unipico.codeberg.page/quarto_guide/quarto_guide.pdf),
+[repo](https://codeberg.org/unipico/quarto_guide).
 
 
 ### LaTeX
@@ -42,18 +47,6 @@ Il formato tipico del prodotto finale è il pdf.
 
 Link al [template LaTeX](https://codeberg.org/unipico/latex_template).
 
-Prodotto di [esempio](https://github.com/unipi-physics-labs/lab1-notes/releases/download/7.0.1/statnotes-7.0.1.pdf).
-
-
-### Quarto
-
-[quarto](https://quarto.org/) è un sistema di impaginazione e grafica, molto
-adatto per le applicazioni scientifiche e tecniche, basato su un linguaggio
-di markup, e che supporta diversi tipi di output, tra cui html e pdf.
-
-Link al [template quarto](https://codeberg.org/unipico/quarto_template).
-
-Prodotto di [esempio](https://unipi-physics-labs.github.io/lab1-computing/).
 
 
 ### MkDocs e Material
