@@ -1,11 +1,11 @@
-# Contribuire a UniPico
+# Contribuire a Tālĕae
 
 Chiunque abbia del materiale che si allinei con le idee di base del
 progetto è benvenuto&mdash;l'unico modo per avere veramente visibilità
 è raggiungere la massa critica.
 
 Il modello che abbiamo in mente è semplice: *ciascun progetto vive
-indipendentemente, e UniPico funge semplicemente da aggregatore*.
+indipendentemente, e Tālĕae funge semplicemente da aggregatore*.
 All'interno di ciascun progetto, i proprietari hanno piena autonomia
 di struttura e contenuti. La parola d'ordine è *elasticità*.
 
@@ -25,20 +25,6 @@ negoziabile, per non vanificare lo scopo ultimo del progetto:
 Da questo punto di vista un singolo file pdf ospitato sulla propria pagina web
 personale, tanto per fare un esempio, è perfettamente accettabile, purché il
 testo soddisfi la condizione 1. qui sopra.
-
-Le informazioni minime che richiediamo per popolare il catalogo sono (TBC):
-
-* titolo ed autore;
-* lingua (e.g., italiano, inglese);
-* licenza;
-* tecnologia utilizzata (e.g., [LaTeX](https://latex3.github.io/),
-  [LibreOffice](https://www.libreoffice.org/),
-  [quarto](https://quarto.org/),
-  [MkDocs](https://www.mkdocs.org/),
-  [JupyterBook](https://jupyterbook.org/),
-  [typst](https://typst.app/));
-* link ai prodotti finali;
-* link al repositorio (se disponibile);
 
 
 ## Buone pratiche

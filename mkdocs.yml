@@ -1,8 +1,8 @@
-site_name: UniPico
+site_name: Tālĕae
 site_description: Didattica universitaria liberata
-site_url: https://unipico.codeberg.page/
-repo_url: https://codeberg.org/unipico/pages
-repo_name: unipico/pages
+site_url: https://taleae.codeberg.page/
+repo_url: https://codeberg.org/taleae/pages
+repo_name: taleae/pages
 site_dir: _site
 remote_name: origin
 remote_branch: pages
@@ -10,11 +10,11 @@ remote_branch: pages
 theme:
   name: material
   language: it
-  logo: assets/unipico_logo.svg
-  favicon: assets/unipico_logo.svg
+  logo: assets/taleae_logo.svg
+  favicon: assets/taleae_logo.svg
   font: false
   palette:
-    - scheme: unipico
+    - scheme: taleae
   features:
     - navigation.sections
     - navigation.top

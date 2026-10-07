@@ -30,12 +30,21 @@ essere utili per la preparazione di materiale didattico. La lista, va da sé, no
 adatto per le applicazioni scientifiche e tecniche, basato su un linguaggio
 di markup, e che supporta diversi tipi di output, tra cui html e pdf.
 
-Link al [template quarto](https://codeberg.org/unipico/quarto_template).
+Link al [template quarto](https://codeberg.org/taleae/quarto_template).
 
 Link alla guida:
-[html](https://unipico.codeberg.page/quarto_guide/),
-[pdf](https://unipico.codeberg.page/quarto_guide/quarto_guide.pdf),
-[repo](https://codeberg.org/unipico/quarto_guide).
+[html](https://taleae.codeberg.page/quarto_guide/),
+[pdf](https://taleae.codeberg.page/quarto_guide/quarto_guide.pdf),
+[repo](https://codeberg.org/taleae/quarto_guide).
+
+
+---
+
+
+### Jupyter Book
+
+[Jupyter Book](https://jupyterbook.org/) è un sistema basato su un linguaggio di
+markup, ed orientato alle applicazioni tecniche.
 
 
 ### LaTeX
@@ -45,9 +54,6 @@ documenti, fortemente orientato alla matematica ed alle materie tecniche
 (ma non per questo inadatto a documenti non tecnici, specialmente se complessi.)
 Il formato tipico del prodotto finale è il pdf.
 
-Link al [template LaTeX](https://codeberg.org/unipico/latex_template).
-
-
 
 ### MkDocs e Material
 
@@ -55,4 +61,8 @@ Link al [template LaTeX](https://codeberg.org/unipico/latex_template).
 su un linguaggio di markup orientato alla creazione di siti html statici.
 Questa pagina web è stata realizzata con questa tecnologia.
 
-Link al [template MkDocs + Material](https://codeberg.org/unipico/material_template).
+
+### typst
+
+[typst](https://typst.app/) è uno dei candidati successori di LaTeX, con un
+compilatore open source che supporta la creazione di file pdf e pagine web.
