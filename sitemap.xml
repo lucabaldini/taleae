@@ -2,38 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://taleae.codeberg.page/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/contribute/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/manifesto/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/tutorials/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/catalog/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
-         <loc>https://taleae.codeberg.page/catalog/analisi_superiore/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <loc>https://taleae.codeberg.page/catalog/analisi-superiore/</loc>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
-         <loc>https://taleae.codeberg.page/catalog/analisi_uno/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <loc>https://taleae.codeberg.page/catalog/analisi-uno/</loc>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
-         <loc>https://taleae.codeberg.page/catalog/cmepda_basic/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <loc>https://taleae.codeberg.page/catalog/astropart/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/cmepda-basic/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/cr-detectors/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/fedro/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/lab1-computing/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/lab1-martinelli/</loc>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/lab1-notes/</loc>
+         <lastmod>2026-10-08</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/catalog/mcmep/</loc>
-         <lastmod>2026-10-07</lastmod>
+         <lastmod>2026-10-08</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/catalog/td-notes/</loc>
+         <lastmod>2026-10-08</lastmod>
     </url>
 </urlset>
