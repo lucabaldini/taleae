@@ -21,6 +21,7 @@ import yaml
 from enum import StrEnum
 
 import pycountry
+from loguru import logger
 from packaging.licenses import (
     InvalidLicenseExpression,
     canonicalize_license_expression
@@ -33,6 +34,7 @@ from pydantic import (
     HttpUrl,
     TypeAdapter,
     ValidationInfo,
+    ValidationError,
     field_validator
 )
 
@@ -288,6 +290,7 @@ class Product(BaseModel):
 def load_author_registry(file_path: str) -> dict[str, Author]:
     """Load the authors from a yaml file.
     """
+    logger.info(f"Loading author registry from {file_path}...")
     with open(file_path, "r", encoding="utf-8") as input_file:
         data = yaml.safe_load(input_file)
     return TypeAdapter(dict[str, Author]).validate_python(data)
@@ -296,10 +299,10 @@ def load_author_registry(file_path: str) -> dict[str, Author]:
 def load_product(file_path: str, author_registry: dict[str: Author]) -> Product:
     """Load a single catalog product from a yaml file.
     """
+    logger.info(f"Loading product from {file_path}...")
     with open(file_path, "r", encoding="utf-8") as input_file:
         data = yaml.safe_load(input_file)
     # Add the stem of the file name as the product id, so that the pydantic
     # validator can pick it up.
     data["id"] = pathlib.Path(file_path).stem
     return Product.model_validate(data, context={"author_registry": author_registry})
-

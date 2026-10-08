@@ -13,13 +13,11 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-
-import yaml
+import sys
 from pathlib import Path
 
 import jinja2
 from loguru import logger
-
 
 from catalog import load_author_registry, load_product
 
@@ -63,4 +61,7 @@ def build_catalog():
 
 
 if __name__ == "__main__":
+    logger.remove()
+    fmt = ">>> <level>[{level}] {message}</level>"
+    logger.add(sys.stderr, level="DEBUG", colorize=True, format=fmt)
     build_catalog()

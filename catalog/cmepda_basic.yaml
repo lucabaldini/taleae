@@ -7,6 +7,8 @@ language: en
 
 license: CC-BY-SA-4.0
 
+audience: LM
+
 links:
   html: https://lbaldini.codeberg.page/cmepda-basic/
   pdf: https://lbaldini.codeberg.page/cmepda-basic/cmepda-basic.pdf
