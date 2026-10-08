@@ -1,0 +1,23 @@
+title: "Space-Based Cosmic-Ray and Gamma-Ray Detectors: a Review"
+
+authors:
+  - luca-baldini
+
+language: en
+
+licensing:
+  content: GPL-3.0
+
+links:
+  pdf: https://arxiv.org/pdf/1407.7631
+  repo: https://github.com/lucabaldini/crdetectors
+
+level: PhD
+
+topics:
+  - Cosmic rays
+  - Cosmic-ray detectors
+  - Detector design
+
+notes:
+  - Archived version.

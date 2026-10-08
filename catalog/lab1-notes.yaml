@@ -1,0 +1,24 @@
+title: "Introduzione all'analisi dei dati per il laboratorio di Fisica"
+
+authors:
+  - luca-baldini
+
+language: it
+
+licensing:
+  content: CC-BY-SA-4.0
+
+links:
+  pdf: https://github.com/unipi-physics-labs/lab1-notes/releases/download/7.0.1/statnotes-7.0.1.pdf
+  repo: https://github.com/unipi-physics-labs/lab1-notes
+
+level: LT
+
+topics:
+  - statistica
+  - analisi dati
+  - python
+
+notes:
+  - Verrà probabilmente migrata da GitHub a Codeberg nel 2027.
+  - Il link al pdf potrebbe non puntare all'ultima versione.

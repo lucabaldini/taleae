@@ -1,0 +1,25 @@
+title: "Astroparticle Physics: Lecture Notes"
+
+authors:
+  - luca-baldini
+
+language: en
+
+licensing:
+  content: CC-BY-SA-4.0
+
+links:
+  pdf: https://github.com/lucabaldini/astropart/releases/download/1.5.0/astropart_1.5.0.pdf
+  repo: https://github.com/lucabaldini/astropart
+
+level: LM
+
+topics:
+  - Astroparticle physics
+  - Cosmic rays
+  - Cosmic neutrinos
+  - Cosmology
+
+notes:
+  - Will be migrated from GitHub to Codeberg in late 2026.
+  - THe pdf link may not point to the latest version.
