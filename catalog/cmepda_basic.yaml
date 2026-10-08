@@ -5,9 +5,9 @@ authors:
 
 language: en
 
-license:
-  - CC-BY-SA-4.0
-  - GPL-3.0-or-later
+licensing:
+  content: CC-BY-SA-4.0
+  code: GPL-3.0-or-later
 
 links:
   html: https://lbaldini.codeberg.page/cmepda-basic/

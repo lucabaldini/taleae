@@ -16,6 +16,6 @@ title: "Computing Methods for Experimental Physics and Data Analysis"
 ## Informazioni
 
 * **Lingua**: en
-* **Licenza**: ['CC-BY-SA-4.0', 'GPL-3.0-or-later']
+* **Licenza**: content='CC-BY-SA-4.0' code='GPL-3.0-or-later'
 
 * **Argomenti**: python programming, scientific computing, software development.

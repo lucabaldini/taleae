@@ -15,4 +15,4 @@ title: "Appunti di Analisi Matematica Uno"
 ## Informazioni
 
 * **Lingua**: it
-* **Licenza**: ['CC-BY-NC-SA-4.0']
+* **Licenza**: content='CC-BY-NC-SA-4.0' code=None

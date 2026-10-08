@@ -5,8 +5,8 @@ authors:
 
 language: it
 
-license:
-  - CC-BY-NC-SA-4.0
+licensing:
+  content: CC-BY-NC-SA-4.0
 
 links:
   pdf: https://github.com/paolini/AnalisiUno/releases/download/2026-05-12/AnalisiUno.pdf

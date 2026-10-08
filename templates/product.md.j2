@@ -15,7 +15,7 @@ title: "{{ product.title }}"
 ## Informazioni
 
 * **Lingua**: {{ product.language }}
-* **Licenza**: {{ product.license }}
+* **Licenza**: {{ product.licensing }}
 {% if product.topics %}
 * **Argomenti**: {% for topic in product.topics %}{{ topic }}{% if not loop.last %}, {% endif %}{% endfor %}.
 {% endif %}

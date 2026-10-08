@@ -15,4 +15,4 @@ title: "Appunti di Analisi Superiore"
 ## Informazioni
 
 * **Lingua**: it
-* **Licenza**: [None]
+* **Licenza**: content='n/a' code=None

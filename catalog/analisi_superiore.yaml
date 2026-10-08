@@ -5,8 +5,8 @@ authors:
 
 language: it
 
-license:
-  - n/a
+licensing:
+  content: n/a
 
 links:
   pdf: https://github.com/paolini/analisi-superiore/releases/download/0.9/AnalisiSuperiore.pdf

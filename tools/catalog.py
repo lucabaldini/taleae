@@ -17,6 +17,7 @@
 """
 
 import pathlib
+from tomlkit import value
 import yaml
 from enum import StrEnum
 
@@ -34,7 +35,6 @@ from pydantic import (
     HttpUrl,
     TypeAdapter,
     ValidationInfo,
-    ValidationError,
     field_validator
 )
 
@@ -141,6 +141,45 @@ class Author(BaseModel):
         return f"{self.initials(self.name)} {self.surname}"
 
 
+class Licensing(BaseModel):
+
+    """Representation of the licenses of a product.
+    """
+
+    model_config = ConfigDict(frozen=True, extra="forbid")
+
+    content: str
+    code: str | None = None
+
+    @field_validator("content", "code")
+    @classmethod
+    def validate(cls, identifier: str | None) -> str | None:
+        """Validate a license identifier.
+
+        This function makes sure that the license is a valid SPDX identifier.
+        See https://spdx.org/licenses/ for the list of valid identifiers.
+
+        Arguments
+        ---------
+        identifier: str | None
+            The license identifier to validate.
+
+        Returns
+        -------
+        str | None
+            The validated license, in canonical form.
+        """
+        if identifier is None:
+            return None
+        if identifier == "n/a":
+            logger.warning("License is set to 'n/a', which is not a valid SPDX identifier")
+            return "n/a"
+        try:
+            return canonicalize_license_expression(identifier)
+        except InvalidLicenseExpression as error:
+            raise ValueError(f"Invalid SPDX expression: {error}") from error
+
+
 class Product(BaseModel):
 
     """Representation of a product in the catalog.
@@ -176,7 +215,7 @@ class Product(BaseModel):
     title: str
     authors: list[Author]
     language: str
-    license: list[str]
+    licensing: Licensing
     links: dict[LinkType, HttpUrl]
     level: AudienceLevel
     targets: list[str] = Field(default_factory=list)
@@ -249,35 +288,6 @@ class Product(BaseModel):
         if not pycountry.languages.get(alpha_2=language):
             raise ValueError(f"Language '{language}' is not a valid ISO 639-1 code")
         return language
-
-    @field_validator("license")
-    @classmethod
-    def validate_license(cls, licenses: list[str]) -> str:
-        """Validate the license of the product.
-
-        This function makes sure that the license is a valid SPDX identifier.
-        See https://spdx.org/licenses/ for the list of valid identifiers.
-
-        Arguments
-        ---------
-        licenses: list[str]
-            The licenses to validate.
-
-        Returns
-        -------
-        str
-            The validated license, in canonical form.
-        """
-        output = []
-        for license in licenses:
-            if license.lower() == "n/a":
-                output.append(None)
-                continue
-            try:
-                output.append(canonicalize_license_expression(license))
-            except InvalidLicenseExpression as error:
-                raise ValueError(f"Invalid SPDX licence: {error}") from error
-        return output
 
     def author_list(self) -> str:
         """Return a string with the list of authors, in the form of "A. Surname,
