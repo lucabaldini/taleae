@@ -218,8 +218,8 @@ class Product(BaseModel):
     licensing: Licensing
     links: dict[LinkType, HttpUrl]
     level: AudienceLevel
-    targets: list[str] = Field(default_factory=list)
     topics: list[str] = Field(default_factory=list)
+    targets: list[str] = Field(default_factory=list)
     notes: list[str] = Field(default_factory=list)
 
     @field_validator("authors", mode="before")
