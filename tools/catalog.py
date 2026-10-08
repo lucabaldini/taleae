@@ -47,6 +47,7 @@ class Role(StrEnum):
     STUDENT = "studente"
     POSTDOC = "postdoc"
     STAFF = "staff"
+    RETIRED = "retired"
 
 
 class LinkType(StrEnum):
@@ -105,7 +106,7 @@ class Author(BaseModel):
     institution: str
     department: str
     role: Role
-    email: EmailStr
+    email: EmailStr | None = None
     website: HttpUrl | None = None
 
     @staticmethod
