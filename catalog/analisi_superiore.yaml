@@ -5,10 +5,11 @@ authors:
 
 language: it
 
-license: n/a
-
-audience: LM
+license:
+  - n/a
 
 links:
   pdf: https://github.com/paolini/analisi-superiore/releases/download/0.9/AnalisiSuperiore.pdf
   repo: https://github.com/paolini/analisi-superiore
+
+level: LM

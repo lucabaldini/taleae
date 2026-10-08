@@ -16,6 +16,6 @@ title: "Monte Carlo Methods for Experimental Physics"
 ## Informazioni
 
 * **Lingua**: en
-* **Licenza**: CC-BY-SA-4.0
+* **Licenza**: ['CC-BY-SA-4.0', 'GPL-3.0-or-later']
 
 * **Argomenti**: Monte Carlo methods, simulation, statistics.

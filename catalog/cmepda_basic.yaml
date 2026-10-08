@@ -5,14 +5,16 @@ authors:
 
 language: en
 
-license: CC-BY-SA-4.0
-
-audience: LM
+license:
+  - CC-BY-SA-4.0
+  - GPL-3.0-or-later
 
 links:
   html: https://lbaldini.codeberg.page/cmepda-basic/
   pdf: https://lbaldini.codeberg.page/cmepda-basic/cmepda-basic.pdf
   repo: https://codeberg.org/lbaldini/cmepda-basic
+
+level: LM
 
 topics:
   - python programming

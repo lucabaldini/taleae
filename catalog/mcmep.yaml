@@ -6,14 +6,16 @@ authors:
 
 language: en
 
-license: CC-BY-SA-4.0
-
-audience: LM
+license:
+  - CC-BY-SA-4.0
+  - GPL-3.0-or-later
 
 links:
   html: https://lbaldini.codeberg.page/mcmep/
   pdf: https://lbaldini.codeberg.page/mcmep/mcmep.pdf
   repo: https://codeberg.org/lbaldini/mcmep
+
+level: LM
 
 topics:
   - Monte Carlo methods

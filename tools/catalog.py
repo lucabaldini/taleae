@@ -176,11 +176,12 @@ class Product(BaseModel):
     title: str
     authors: list[Author]
     language: str
-    license: str | list[str]
+    license: list[str]
     links: dict[LinkType, HttpUrl]
-    audience: AudienceLevel
-    courses: list[str] = Field(default_factory=list)
+    level: AudienceLevel
+    targets: list[str] = Field(default_factory=list)
     topics: list[str] = Field(default_factory=list)
+    notes: list[str] = Field(default_factory=list)
 
     @field_validator("authors", mode="before")
     @classmethod
@@ -251,7 +252,7 @@ class Product(BaseModel):
 
     @field_validator("license")
     @classmethod
-    def validate_license(cls, license: str) -> str:
+    def validate_license(cls, licenses: list[str]) -> str:
         """Validate the license of the product.
 
         This function makes sure that the license is a valid SPDX identifier.
@@ -259,20 +260,24 @@ class Product(BaseModel):
 
         Arguments
         ---------
-        license: str
-            The license to validate.
+        licenses: list[str]
+            The licenses to validate.
 
         Returns
         -------
         str
             The validated license, in canonical form.
         """
-        if license.lower() == "n/a":
-            return "n/a"
-        try:
-            return canonicalize_license_expression(license)
-        except InvalidLicenseExpression as error:
-            raise ValueError(f"Invalid SPDX licence: {error}") from error
+        output = []
+        for license in licenses:
+            if license.lower() == "n/a":
+                output.append(None)
+                continue
+            try:
+                output.append(canonicalize_license_expression(license))
+            except InvalidLicenseExpression as error:
+                raise ValueError(f"Invalid SPDX licence: {error}") from error
+        return output
 
     def author_list(self) -> str:
         """Return a string with the list of authors, in the form of "A. Surname,
