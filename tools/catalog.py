@@ -42,10 +42,30 @@ class Role(StrEnum):
     """Enumeration of the possible academic roles of an author in a book.
     """
 
-    STUDENT = "student"
+    STUDENT = "studente"
     POSTDOC = "postdoc"
     STAFF = "staff"
 
+
+class LinkType(StrEnum):
+
+    """Enumeration of the possible link types of a book.
+    """
+
+    PDF = "pdf"
+    EPUB = "epub"
+    HTML = "html"
+    REPO = "repo"
+
+
+class AudienceLevel(StrEnum):
+
+    """Enumeration of the possible audience levels of a book.
+    """
+
+    LT = "LT"
+    LM = "LM"
+    PHD = "PhD"
 
 
 class Author(BaseModel):
@@ -154,8 +174,10 @@ class Product(BaseModel):
     title: str
     authors: list[Author]
     language: str
-    license: str
-    links: dict[str, HttpUrl]
+    license: str | list[str]
+    links: dict[LinkType, HttpUrl]
+    audience: AudienceLevel
+    courses: list[str] = Field(default_factory=list)
     topics: list[str] = Field(default_factory=list)
 
     @field_validator("authors", mode="before")
