@@ -4,7 +4,7 @@
 | Autore | Dipartimento | Titoli |
 |--------|--------------|--------|
 | [Luca Baldini](luca-baldini.md) | Dipartimento di Fisica | 7 |
-| [Fabio Durastante](fabio-durastante.md) | Dipartimento di Matematica | 0 |
+| [Fabio Durastante](fabio-durastante.md) | Dipartimento di Matematica | 2 |
 | [Elena Graverini](elena-graverini.md) | Dipartimento di Fisica | 1 |
 | [Liana Martinelli](liana-martinelli.md) | Dipartimento di Fisica | 1 |
 | [Emanuele Paolini](emanuele-paolini.md) | Dipartimento di Matematica | 2 |

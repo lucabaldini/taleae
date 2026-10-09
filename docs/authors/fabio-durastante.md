@@ -15,3 +15,5 @@ title: "Fabio Durastante"
 
 ## Titoli
 
+- [Calcolo Numerico - Appunti ed esercitazioni di Laboratorio](../products/ingcn.md)
+- [Laboratorio di Introduzione alla Matematica Computazionale](../products/limco.md)
