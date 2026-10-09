@@ -1,0 +1,20 @@
+---
+title: "{{ author.full_name() }}"
+---
+
+# {{ author.full_name() }}
+
+
+## Informazioni
+
+* **Ruolo**: {{ author.role }}
+* **Dipartimento**: {{ author.department }}
+* **email**: [{{ author.email }}](mailto:{{ author.email }})
+* **Pagina web**: [{{ author.website }}]({{ author.website }})
+
+
+## Titoli
+
+{% for product in author.products -%}
+- [{{ product.title }}](../products/{{ product.id }}.md)
+{% endfor %}

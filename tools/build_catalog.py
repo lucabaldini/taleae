@@ -43,7 +43,9 @@ def build_catalog():
     _AUTHORS_DIR.mkdir(parents=True, exist_ok=True)
 
     product_template = env.get_template("product.md.j2")
-    catalog_template = env.get_template("catalog.md.j2")
+    products_template = env.get_template("products.md.j2")
+    author_template = env.get_template("author.md.j2")
+    authors_template = env.get_template("authors.md.j2")
 
     author_registry = load_author_registry(_CATALOG_DIR / "_authors.yaml")
     products = []
@@ -59,8 +61,15 @@ def build_catalog():
         rendered = product_template.render(product=product)
         (_PRODUCTS_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
 
-    rendered = catalog_template.render(products=products)
+    rendered = products_template.render(products=products)
     (_PRODUCTS_DIR / "index.md").write_text(rendered, encoding="utf-8")
+
+    for author_id, author in author_registry.items():
+        rendered = author_template.render(author=author)
+        (_AUTHORS_DIR / f"{author_id}.md").write_text(rendered, encoding="utf-8")
+
+    rendered = authors_template.render(authors=list(author_registry.values()))
+    (_AUTHORS_DIR / "index.md").write_text(rendered, encoding="utf-8")
 
 
 if __name__ == "__main__":

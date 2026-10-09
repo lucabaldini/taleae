@@ -29,3 +29,4 @@ possibile, meccanismi di compilazione e rilascio riproducibili.
 dettagliate su come contribuire praticamente al progetto.
 
 [Esplora il catalogo](products/index.md){ .md-button .md-button }
+[Esplora gli autori](authors/index.md){ .md-button .md-button }

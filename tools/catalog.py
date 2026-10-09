@@ -105,6 +105,7 @@ class Author(BaseModel):
 
     model_config = ConfigDict(frozen=True, extra="forbid")
 
+    id: str
     name: str
     surname: str
     institution: str
@@ -145,6 +146,16 @@ class Author(BaseModel):
             The shortened version of the full name.
         """
         return f"{self.initials(self.name)} {self.surname}"
+
+    def full_name(self) -> str:
+        """Return the full name of the author, with the actual name and the surname.
+
+        Returns
+        -------
+        str
+            The full version of the name.
+        """
+        return f"{self.name} {self.surname}"
 
 
 class Licensing(BaseModel):
@@ -314,6 +325,8 @@ def load_author_registry(file_path: str) -> dict[str, Author]:
     logger.info(f"Loading author registry from {file_path}...")
     with open(file_path, "r", encoding="utf-8") as input_file:
         data = yaml.safe_load(input_file)
+    for author_id, author_data in data.items():
+        author_data["id"] = author_id
     return TypeAdapter(dict[str, Author]).validate_python(data)
 
 

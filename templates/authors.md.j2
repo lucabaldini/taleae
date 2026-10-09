@@ -1,0 +1,8 @@
+# Autori
+
+
+| Autore | Dipartimento | Titoli |
+|--------|--------------|--------|
+{% for author in authors -%}
+| [{{ author.full_name() }}]({{ author.id }}.md) | {{ author.department }} | {{ author.products | length }} |
+{% endfor %}
