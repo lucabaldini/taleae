@@ -28,4 +28,4 @@ possibile, meccanismi di compilazione e rilascio riproducibili.
 **Per gli autori**: una serie di semplici linee guida e di istruzioni tecniche
 dettagliate su come contribuire praticamente al progetto.
 
-[Esplora il catalogo](catalog/index.md){ .md-button .md-button }
+[Esplora il catalogo](products/index.md){ .md-button .md-button }

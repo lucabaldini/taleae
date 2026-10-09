@@ -97,6 +97,10 @@ class Author(BaseModel):
 
     website: HttpUrl | None
         The website of the author, if any.
+
+    products: list
+        The list of products authored by this author. This is automatically
+        populated when the catalog is built, and should not be set manually.
     """
 
     model_config = ConfigDict(frozen=True, extra="forbid")
@@ -108,6 +112,7 @@ class Author(BaseModel):
     role: Role
     email: EmailStr | None = None
     website: HttpUrl | None = None
+    products: list = Field(default_factory=list)
 
     @staticmethod
     def initials(text: str) -> str:

@@ -24,7 +24,7 @@ theme:
 nav:
   - Home: index.md
   - Manifesto: manifesto.md
-  - Catalogo: catalog/index.md
+  - Catalogo: products/index.md
   - Per i docenti:
       - Linee guida: contribute.md
       - Guide pratiche: tutorials.md

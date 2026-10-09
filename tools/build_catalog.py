@@ -24,7 +24,8 @@ from catalog import load_author_registry, load_product
 
 _ROOT = Path(__file__).resolve().parents[1]
 _CATALOG_DIR = _ROOT / "catalog"
-_MARKUP_DIR = _ROOT / "docs" / "catalog"
+_PRODUCTS_DIR = _ROOT / "docs" / "products"
+_AUTHORS_DIR = _ROOT / "docs" / "authors"
 
 
 def build_catalog():
@@ -38,7 +39,8 @@ def build_catalog():
         keep_trailing_newline=True,
     )
 
-    _MARKUP_DIR.mkdir(parents=True, exist_ok=True)
+    _PRODUCTS_DIR.mkdir(parents=True, exist_ok=True)
+    _AUTHORS_DIR.mkdir(parents=True, exist_ok=True)
 
     product_template = env.get_template("product.md.j2")
     catalog_template = env.get_template("catalog.md.j2")
@@ -52,12 +54,13 @@ def build_catalog():
             continue
         product = load_product(source, author_registry)
         products.append(product)
+        for author in product.authors:
+            author.products.append(product)
         rendered = product_template.render(product=product)
-        (_MARKUP_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
-
+        (_PRODUCTS_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
 
     rendered = catalog_template.render(products=products)
-    (_MARKUP_DIR / "index.md").write_text(rendered, encoding="utf-8")
+    (_PRODUCTS_DIR / "index.md").write_text(rendered, encoding="utf-8")
 
 
 if __name__ == "__main__":
