@@ -1,6 +1,10 @@
 # Catalogo
 
+<<<<<<< Updated upstream
 Il catalogo contiene 13 opere.
+=======
+Il catalogo contiene 12 opere.
+>>>>>>> Stashed changes
 
 | Autori | Titolo | Link |
 |--------|--------|------|
@@ -14,7 +18,11 @@ Il catalogo contiene 13 opere.
 | L. Baldini | [Elementi di computazione per il corso di Laboratorio di Fisica](lab1-computing.md) | [html](https://unipi-physics-labs.github.io/lab1-computing/), [pdf](https://github.com/unipi-physics-labs/lab1-computing/releases/download/1.1.1/compnotes-1.1.1.pdf), [repo](https://github.com/unipi-physics-labs/lab1-computing) |
 | L. Martinelli, L. Baldini | [Misure ed analisi dei dati: introduzione al Laboratorio di Fisica](lab1-martinelli.md) | [pdf](https://github.com/unipi-physics-labs/lab1-martinelli/releases/download/v99.0.0/analisi_dati.pdf), [repo](https://github.com/unipi-physics-labs/lab1-martinelli) |
 | L. Baldini | [Introduzione all'analisi dei dati per il laboratorio di Fisica](lab1-notes.md) | [pdf](https://github.com/unipi-physics-labs/lab1-notes/releases/download/7.0.1/statnotes-7.0.1.pdf), [repo](https://github.com/unipi-physics-labs/lab1-notes) |
+<<<<<<< Updated upstream
 | F. Durastante | [Laboratorio di Introduzione alla Matematica Computazionale](limco.md) | [repo](https://codeberg.org/fdurastante/limco) |
+=======
+| F. Fuso | [Dispenζe di Lab 2](lab2-notes.md) | [pdf](https://unipiit-my.sharepoint.com/:b:/g/personal/a009151_unipi_it/IQCFb-HVDk9cQ4kxbjgBU-qpAZnPem4RvWm5XwIljN-09ek?e=VOFJ2w) |
+>>>>>>> Stashed changes
 | L. Baldini, E. Graverini | [Monte Carlo Methods for Experimental Physics](mcmep.md) | [html](https://lbaldini.codeberg.page/mcmep/), [pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf), [repo](https://codeberg.org/lbaldini/mcmep) |
 | S. Roddaro, A. Pitanti | [Tecnologie Digitali: note interattive di laboratorio](td-notes.md) | [html](https://cmp.df.unipi.it/roddaro/TDnotes/) |
 
