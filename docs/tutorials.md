@@ -38,6 +38,20 @@ Link alla guida:
 [repo](https://codeberg.org/taleae/quarto_guide).
 
 
+### LaTeX
+
+[LaTeX](https://latex3.github.io/) è un linguaggio di markup per la preparazione di
+documenti, fortemente orientato alla matematica ed alle materie tecniche
+(ma non per questo inadatto a documenti non tecnici, specialmente se complessi.)
+Il formato tipico del prodotto finale è il pdf.
+
+Link al [template LaTeX](https://codeberg.org/taleae/latex_template).
+
+Link alla guida:
+[pdf](https://taleae.codeberg.page/latex_guide/latex_guide.pdf),
+[repo](https://codeberg.org/taleae/latex_guide).
+
+
 ---
 
 
@@ -45,14 +59,6 @@ Link alla guida:
 
 [Jupyter Book](https://jupyterbook.org/) è un sistema basato su un linguaggio di
 markup, ed orientato alle applicazioni tecniche.
-
-
-### LaTeX
-
-[LaTeX](https://latex3.github.io/) è un linguaggio di markup per la preparazione di
-documenti, fortemente orientato alla matematica ed alle materie tecniche
-(ma non per questo inadatto a documenti non tecnici, specialmente se complessi.)
-Il formato tipico del prodotto finale è il pdf.
 
 
 ### MkDocs e Material
