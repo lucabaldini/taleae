@@ -2,114 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://taleae.codeberg.page/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/contribute/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/manifesto/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/tutorials/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/alessandro-pitanti/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/elena-graverini/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/emanuele-paolini/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/fabio-durastante/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/authors/francesco-fuso/</loc>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/leonardo-robol/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/liana-martinelli/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/luca-baldini/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/maria-chiara-pievatolo/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/authors/stefano-roddaro/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/analisi-superiore/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/analisi-uno/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/astropart/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/cmepda-basic/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/cr-detectors/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/fedro/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/ingcn/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/lab1-computing/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/lab1-martinelli/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/lab1-notes/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
+    </url>
+    <url>
+         <loc>https://taleae.codeberg.page/products/lab2-notes/</loc>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/limco/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/mcmep/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
     <url>
          <loc>https://taleae.codeberg.page/products/td-notes/</loc>
-         <lastmod>2026-10-09</lastmod>
+         <lastmod>2026-10-13</lastmod>
     </url>
 </urlset>
