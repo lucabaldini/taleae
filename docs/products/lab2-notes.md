@@ -16,4 +16,4 @@ title: "Dispenζe di Lab 2"
 * **Lingua**: en
 * **Licenza**: content='CC-BY-SA-4.0' code=None
 
-* **Argomenti**: circuiti elettrici, analisi dati, python.
+* **Argomenti**: circuiti elettrici, teoria dei segnali, analisi dati.
