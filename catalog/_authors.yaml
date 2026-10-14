@@ -8,6 +8,15 @@ luca-baldini:
   email: luca.baldini@unipi.it
   website: https://osiris.df.unipi.it/~baldini
 
+claudio-bonati:
+  name: Claudio
+  surname: Bonati
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: claudio.bonati@unipi.it
+  website: https://www.pi.infn.it/~bonati/
+
 fabio-durastante:
   name: Fabio
   surname: Durastante
@@ -66,14 +75,6 @@ alessandro-pitanti:
   role: staff
   email: alessandro.pitanti@unipi.it
 
-stefano-roddaro:
-  name: Stefano
-  surname: Roddaro
-  institution: Università di Pisa
-  department: Dipartimento di Fisica
-  role: staff
-  email: stefano.roddaro@unipi.it
-
 leonardo-robol:
   name: Leonardo
   surname: Robol
@@ -82,3 +83,11 @@ leonardo-robol:
   role: staff
   email: leonardo.robol@unipi.it
   website: https://web.dm.unipi.it/robol/
+
+stefano-roddaro:
+  name: Stefano
+  surname: Roddaro
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: staff
+  email: stefano.roddaro@unipi.it

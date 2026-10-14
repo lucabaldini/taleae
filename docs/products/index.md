@@ -1,6 +1,6 @@
 # Catalogo
 
-Il catalogo contiene 14 opere.
+Il catalogo contiene 16 opere.
 
 | Autori | Titolo | Link |
 |--------|--------|------|
@@ -8,6 +8,7 @@ Il catalogo contiene 14 opere.
 | E. Paolini | [Appunti di Analisi Matematica Uno](analisi-uno.md) | [pdf](https://github.com/paolini/AnalisiUno/releases/download/2026-05-12/AnalisiUno.pdf), [repo](https://github.com/paolini/AnalisiUno) |
 | L. Baldini | [Astroparticle Physics: Lecture Notes](astropart.md) | [pdf](https://github.com/lucabaldini/astropart/releases/download/1.5.0/astropart_1.5.0.pdf), [repo](https://github.com/lucabaldini/astropart) |
 | L. Baldini | [Computing Methods for Experimental Physics and Data Analysis](cmepda-basic.md) | [html](https://lbaldini.codeberg.page/cmepda-basic/), [pdf](https://lbaldini.codeberg.page/cmepda-basic/cmepda-basic.pdf), [repo](https://codeberg.org/lbaldini/cmepda-basic) |
+| C. Bonati | [Computational Physics Laboratory](cpl.md) | [pdf](https://www.pi.infn.it/~bonati/metodi_numerici_2023/numerical_methods_2023.pdf) |
 | L. Baldini | [Space-Based Cosmic-Ray and Gamma-Ray Detectors: a Review](cr-detectors.md) | [pdf](https://arxiv.org/pdf/1407.7631), [repo](https://github.com/lucabaldini/crdetectors) |
 | M. C. Pievatolo | [Il Fedro di Platone](fedro.md) | [html](https://btfp.sp.unipi.it/dida/fedro/index.xhtml) |
 | F. Durastante | [Calcolo Numerico - Appunti ed esercitazioni di Laboratorio](ingcn.md) | [html](https://cirdans-home.github.io/ingcn/intro.html), [repo](https://github.com/Cirdans-Home/ingcn) |
@@ -17,5 +18,6 @@ Il catalogo contiene 14 opere.
 | F. Fuso | [Dispenζe di Lab 2](lab2-notes.md) | [pdf](https://unipiit-my.sharepoint.com/:b:/g/personal/a009151_unipi_it/IQCFb-HVDk9cQ4kxbjgBU-qpAZnPem4RvWm5XwIljN-09ek?e=VOFJ2w) |
 | F. Durastante | [Laboratorio di Introduzione alla Matematica Computazionale](limco.md) | [repo](https://codeberg.org/fdurastante/limco) |
 | L. Baldini, E. Graverini | [Monte Carlo Methods for Experimental Physics](mcmep.md) | [html](https://lbaldini.codeberg.page/mcmep/), [pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf), [repo](https://codeberg.org/lbaldini/mcmep) |
+| C. Bonati | [Alcuni aspetti tecnici del momento angolare](momang.md) | [pdf](https://www.pi.infn.it/~bonati/mecc_quant_2020/momang.pdf) |
 | S. Roddaro, A. Pitanti | [Tecnologie Digitali: note interattive di laboratorio](td-notes.md) | [html](https://cmp.df.unipi.it/roddaro/TDnotes/) |
 
