@@ -1,6 +1,6 @@
 # Catalogo
 
-Il catalogo contiene 16 opere.
+Il catalogo contiene 19 opere.
 
 | Autori | Titolo | Link |
 |--------|--------|------|
@@ -11,6 +11,7 @@ Il catalogo contiene 16 opere.
 | C. Bonati | [Computational Physics Laboratory](cpl.md) | [pdf](https://www.pi.infn.it/~bonati/metodi_numerici_2023/numerical_methods_2023.pdf) |
 | L. Baldini | [Space-Based Cosmic-Ray and Gamma-Ray Detectors: a Review](cr-detectors.md) | [pdf](https://arxiv.org/pdf/1407.7631), [repo](https://github.com/lucabaldini/crdetectors) |
 | M. C. Pievatolo | [Il Fedro di Platone](fedro.md) | [html](https://btfp.sp.unipi.it/dida/fedro/index.xhtml) |
+| C. Bonati | [Elettromagnetismo relativistico ed elementi di interazione radiazione materia](fis3.md) | [pdf](https://www.pi.infn.it/~bonati/fisica3_2021/fisica3_2021.pdf) |
 | F. Durastante | [Calcolo Numerico - Appunti ed esercitazioni di Laboratorio](ingcn.md) | [html](https://cirdans-home.github.io/ingcn/intro.html), [repo](https://github.com/Cirdans-Home/ingcn) |
 | L. Baldini | [Elementi di computazione per il corso di Laboratorio di Fisica](lab1-computing.md) | [html](https://unipi-physics-labs.github.io/lab1-computing/), [pdf](https://github.com/unipi-physics-labs/lab1-computing/releases/download/1.1.1/compnotes-1.1.1.pdf), [repo](https://github.com/unipi-physics-labs/lab1-computing) |
 | L. Martinelli, L. Baldini | [Misure ed analisi dei dati: introduzione al Laboratorio di Fisica](lab1-martinelli.md) | [pdf](https://github.com/unipi-physics-labs/lab1-martinelli/releases/download/v99.0.0/analisi_dati.pdf), [repo](https://github.com/unipi-physics-labs/lab1-martinelli) |
@@ -19,5 +20,7 @@ Il catalogo contiene 16 opere.
 | F. Durastante | [Laboratorio di Introduzione alla Matematica Computazionale](limco.md) | [repo](https://codeberg.org/fdurastante/limco) |
 | L. Baldini, E. Graverini | [Monte Carlo Methods for Experimental Physics](mcmep.md) | [html](https://lbaldini.codeberg.page/mcmep/), [pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf), [repo](https://codeberg.org/lbaldini/mcmep) |
 | C. Bonati | [Alcuni aspetti tecnici del momento angolare](momang.md) | [pdf](https://www.pi.infn.it/~bonati/mecc_quant_2020/momang.pdf) |
+| C. Bonati | [Introduzione al modello a quark](quark.md) | [pdf](https://www.pi.infn.it/~bonati/part1_2011/quark_model.pdf) |
+| C. Bonati | [Introduzione alle simmetrie discrete in fisica delle particelle](simmetrie-discrete.md) | [pdf](https://www.pi.infn.it/~bonati/part1_2011/noteexp_no_repr.pdf) |
 | S. Roddaro, A. Pitanti | [Tecnologie Digitali: note interattive di laboratorio](td-notes.md) | [html](https://cmp.df.unipi.it/roddaro/TDnotes/) |
 

@@ -4,7 +4,7 @@
 | Autore | Dipartimento | Titoli |
 |--------|--------------|--------|
 | [Luca Baldini](luca-baldini.md) | Dipartimento di Fisica | 7 |
-| [Claudio Bonati](claudio-bonati.md) | Dipartimento di Matematica | 2 |
+| [Claudio Bonati](claudio-bonati.md) | Dipartimento di Fisica | 5 |
 | [Fabio Durastante](fabio-durastante.md) | Dipartimento di Matematica | 2 |
 | [Francesco Fuso](francesco-fuso.md) | Dipartimento di Fisica | 1 |
 | [Elena Graverini](elena-graverini.md) | Dipartimento di Fisica | 1 |

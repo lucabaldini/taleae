@@ -13,5 +13,5 @@ title: "Alcuni aspetti tecnici del momento angolare"
 
 ## Informazioni
 
-* **Lingua**: en
+* **Lingua**: it
 * **Licenza**: content='CC-BY-SA-4.0' code=None
