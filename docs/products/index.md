@@ -1,6 +1,6 @@
 # Catalogo
 
-Il catalogo contiene 19 opere.
+Il catalogo contiene 21 opere.
 
 | Autori | Titolo | Link |
 |--------|--------|------|
@@ -12,12 +12,14 @@ Il catalogo contiene 19 opere.
 | L. Baldini | [Space-Based Cosmic-Ray and Gamma-Ray Detectors: a Review](cr-detectors.md) | [pdf](https://arxiv.org/pdf/1407.7631), [repo](https://github.com/lucabaldini/crdetectors) |
 | M. C. Pievatolo | [Il Fedro di Platone](fedro.md) | [html](https://btfp.sp.unipi.it/dida/fedro/index.xhtml) |
 | C. Bonati | [Elettromagnetismo relativistico ed elementi di interazione radiazione materia](fis3.md) | [pdf](https://www.pi.infn.it/~bonati/fisica3_2021/fisica3_2021.pdf) |
+| F. Durastante | [An introduction to fractional calculus: fundamental ideas and numerics](fraccalculus.md) | [repo](https://github.com/Cirdans-Home/fractionalcourse), [pdf](https://github.com/Cirdans-Home/fractionalcourse/blob/main/slide/allfraclectures.pdf) |
 | F. Durastante | [Calcolo Numerico - Appunti ed esercitazioni di Laboratorio](ingcn.md) | [html](https://cirdans-home.github.io/ingcn/intro.html), [repo](https://github.com/Cirdans-Home/ingcn) |
 | L. Baldini | [Elementi di computazione per il corso di Laboratorio di Fisica](lab1-computing.md) | [html](https://unipi-physics-labs.github.io/lab1-computing/), [pdf](https://github.com/unipi-physics-labs/lab1-computing/releases/download/1.1.1/compnotes-1.1.1.pdf), [repo](https://github.com/unipi-physics-labs/lab1-computing) |
 | L. Martinelli, L. Baldini | [Misure ed analisi dei dati: introduzione al Laboratorio di Fisica](lab1-martinelli.md) | [pdf](https://github.com/unipi-physics-labs/lab1-martinelli/releases/download/v99.0.0/analisi_dati.pdf), [repo](https://github.com/unipi-physics-labs/lab1-martinelli) |
 | L. Baldini | [Introduzione all'analisi dei dati per il laboratorio di Fisica](lab1-notes.md) | [pdf](https://github.com/unipi-physics-labs/lab1-notes/releases/download/7.0.1/statnotes-7.0.1.pdf), [repo](https://github.com/unipi-physics-labs/lab1-notes) |
 | F. Fuso | [Dispenζe di Lab 2](lab2-notes.md) | [pdf](https://unipiit-my.sharepoint.com/:b:/g/personal/a009151_unipi_it/IQCFb-HVDk9cQ4kxbjgBU-qpAZnPem4RvWm5XwIljN-09ek?e=VOFJ2w) |
 | F. Durastante | [Laboratorio di Introduzione alla Matematica Computazionale](limco.md) | [repo](https://codeberg.org/fdurastante/limco) |
+| F. Durastante, S. Gazzola | [Matematica Computazionale per l'Ingegneria](matematicacomputazionale.md) | [repo](https://codeberg.org/fdurastante/matematicacomputazionale), [html](https://fdurastante.codeberg.page/matematicacomputazionale/) |
 | L. Baldini, E. Graverini | [Monte Carlo Methods for Experimental Physics](mcmep.md) | [html](https://lbaldini.codeberg.page/mcmep/), [pdf](https://lbaldini.codeberg.page/mcmep/mcmep.pdf), [repo](https://codeberg.org/lbaldini/mcmep) |
 | C. Bonati | [Alcuni aspetti tecnici del momento angolare](momang.md) | [pdf](https://www.pi.infn.it/~bonati/mecc_quant_2020/momang.pdf) |
 | C. Bonati | [Introduzione al modello a quark](quark.md) | [pdf](https://www.pi.infn.it/~bonati/part1_2011/quark_model.pdf) |

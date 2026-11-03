@@ -91,3 +91,12 @@ stefano-roddaro:
   department: Dipartimento di Fisica
   role: staff
   email: stefano.roddaro@unipi.it
+
+silvia-gazzola:
+  name: Silvia
+  surname: Gazzola
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: silvia.gazzola@unipi.it
+  website: https://sites.google.com/view/silviaspersonalwebpage/silvias-homepage

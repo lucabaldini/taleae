@@ -1,0 +1,16 @@
+title: "An introduction to fractional calculus: fundamental ideas and numerics"
+
+authors:
+  - fabio-durastante
+
+language: en
+
+licensing:
+  content: BSD-3-Clause
+  code: BSD-3-Clause
+
+links:
+  repo: https://github.com/Cirdans-Home/fractionalcourse
+  pdf: https://github.com/Cirdans-Home/fractionalcourse/blob/main/slide/allfraclectures.pdf
+
+level: PhD

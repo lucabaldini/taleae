@@ -1,0 +1,17 @@
+title: "Matematica Computazionale per l'Ingegneria"
+
+authors:
+  - fabio-durastante
+  - silvia-gazzola
+
+language: en
+
+licensing:
+  content: CC-BY-4.0
+  code: GPL-3.0-or-later
+
+links:
+  repo: https://codeberg.org/fdurastante/matematicacomputazionale
+  html: https://fdurastante.codeberg.page/matematicacomputazionale/
+
+level: LM

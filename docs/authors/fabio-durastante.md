@@ -15,5 +15,7 @@ title: "Fabio Durastante"
 
 ## Titoli
 
+- [An introduction to fractional calculus: fundamental ideas and numerics](../products/fraccalculus.md)
 - [Calcolo Numerico - Appunti ed esercitazioni di Laboratorio](../products/ingcn.md)
 - [Laboratorio di Introduzione alla Matematica Computazionale](../products/limco.md)
+- [Matematica Computazionale per l'Ingegneria](../products/matematicacomputazionale.md)
