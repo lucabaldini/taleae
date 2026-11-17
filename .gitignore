@@ -1,3 +1,6 @@
 .vscode
 _site
 tools/__pycache__
+
+docs/authors/
+docs/products/
