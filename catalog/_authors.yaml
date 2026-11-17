@@ -35,6 +35,15 @@ francesco-fuso:
   email: francesco.fuso@unipi.it
   website: https://osiris.df.unipi.it/~fuso
 
+silvia-gazzola:
+  name: Silvia
+  surname: Gazzola
+  institution: Università di Pisa
+  department: Dipartimento di Matematica
+  role: staff
+  email: silvia.gazzola@unipi.it
+  website: https://sites.google.com/view/silviaspersonalwebpage/silvias-homepage
+
 elena-graverini:
   name: Elena
   surname: Graverini
@@ -43,12 +52,33 @@ elena-graverini:
   role: staff
   email: elena.graverini@unipi.it
 
+michelangelo-leoni:
+  name: Michelangelo
+  surname: Leoni
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: studente
+
 liana-martinelli:
   name: Liana
   surname: Martinelli
   institution: Università di Pisa
   department: Dipartimento di Fisica
   role: retired
+
+jacopo-omodei:
+  name: Jacopo
+  surname: Omodei
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: studente
+
+giacomo-pannocchia:
+  name: Giacomo
+  surname: Pannocchia
+  institution: Università di Pisa
+  department: Dipartimento di Fisica
+  role: studente
 
 emanuele-paolini:
   name: Emanuele
@@ -92,11 +122,3 @@ stefano-roddaro:
   role: staff
   email: stefano.roddaro@unipi.it
 
-silvia-gazzola:
-  name: Silvia
-  surname: Gazzola
-  institution: Università di Pisa
-  department: Dipartimento di Matematica
-  role: staff
-  email: silvia.gazzola@unipi.it
-  website: https://sites.google.com/view/silviaspersonalwebpage/silvias-homepage

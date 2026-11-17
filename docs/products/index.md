@@ -1,9 +1,10 @@
 # Catalogo
 
-Il catalogo contiene 21 opere.
+Il catalogo contiene 22 opere.
 
 | Autori | Titolo | Link |
 |--------|--------|------|
+| M. Leoni, J. Omodei | [Statistical Data Analysis](analisi-statistica.md) | [pdf](https://github.com/user-attachments/files/29132197/production_analisi_statistica_dei_dati.pdf), [repo](https://github.com/MichelangeloLeoni/analisi_statistica_dei_dati) |
 | E. Paolini | [Appunti di Analisi Superiore](analisi-superiore.md) | [pdf](https://github.com/paolini/analisi-superiore/releases/download/0.9/AnalisiSuperiore.pdf), [repo](https://github.com/paolini/analisi-superiore) |
 | E. Paolini | [Appunti di Analisi Matematica Uno](analisi-uno.md) | [pdf](https://github.com/paolini/AnalisiUno/releases/download/2026-05-12/AnalisiUno.pdf), [repo](https://github.com/paolini/AnalisiUno) |
 | L. Baldini | [Astroparticle Physics: Lecture Notes](astropart.md) | [pdf](https://github.com/lucabaldini/astropart/releases/download/1.5.0/astropart_1.5.0.pdf), [repo](https://github.com/lucabaldini/astropart) |

@@ -25,9 +25,10 @@ nav:
   - Home: index.md
   - Manifesto: manifesto.md
   - Catalogo: products/index.md
+  - Didattica dal basso: products/grassroots.md
   - Autori: authors/index.md
-  - Per i docenti:
-      - Linee guida: contribute.md
+  - Per gli autori:
+      - Come contribuire: contribute.md
       - Guide pratiche: tutorials.md
 
 markdown_extensions:
