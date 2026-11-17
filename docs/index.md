@@ -15,8 +15,6 @@ Esattamente nello stesso spirito, il materiale in questo contenitore è reso
 liberamente disponibile non solo per la consultazione, ma anche nella speranza
 che possa riprodursi. Per talea, appunto.
 
-[Leggi il nostro manifesto](manifesto.md){ .md-button }
-
 
 ## Cosa trovo?
 

@@ -1,13 +1,18 @@
 # Contribuire a Tālĕae
 
-Chiunque abbia del materiale che si allinei con le idee di base del
-progetto è benvenuto&mdash;l'unico modo per avere veramente visibilità
-è raggiungere la massa critica.
+Chiunque abbia del materiale di interesse per la didattica universitaria che
+si allinei con le idee di base del progetto è benvenuto.
 
 Il modello che abbiamo in mente è semplice: *ciascun progetto vive
-indipendentemente, e Tālĕae funge semplicemente da aggregatore*.
-All'interno di ciascun progetto, i proprietari hanno piena autonomia
-di struttura e contenuti. La parola d'ordine è *elasticità*.
+indipendentemente, e Tālĕae funge semplicemente da aggregatore*. All'interno
+di ciascun progetto, i proprietari hanno piena autonomia (e, va da sé,
+piena responsabilità) sulla struttura e sui contenuti.
+
+!!! warning "In costruzione"
+    In attesa che il progetto prenda forma, non abbiamo ancora un meccanismo
+    standardizzato di adesione. Nel frattempo chiunque volesse segnalare un
+    progetto da aggiungere a Tālĕae può mandare un'email a
+    [Luca Baldini](mailto:luca.baldini@pi.infn.it).
 
 
 ## Requisiti minimi
@@ -17,8 +22,8 @@ negoziabile, per non vanificare lo scopo ultimo del progetto:
 
 1. il materiale deve essere rilasciato sotto una licenza ben identificabile
    che, oltre alla consultazione, permetta la modifica e la
-   redistribuzione&mdash;[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-   è la scelta ovvia, ma ci sono molte opzioni;
+   redistribuzione, come ad esempio
+   [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/);
 2. il materiale non deve includere file in formati proprietari, o che non siano
    leggibili con strumenti *liberi*.
 
@@ -29,9 +34,8 @@ testo soddisfi la condizione 1. qui sopra.
 
 ## Buone pratiche
 
-Detto questo, il nostro progetto punta ad essere molto di più di una semplice
-collezione di link a file pdf. Queste sono le raccomandazioni per massimizzare
-impatto e ri-usabilità:
+Detto questo, Tālĕae punta ad essere più di una semplice collezione di link a
+file pdf. Queste sono le raccomandazioni per massimizzare impatto e ri-usabilità:
 
 1. se il materiale nella sua forma finale è ottenuto processando file
    sorgente di tipo diverso (e.g., LaTeX, o markup), allora raccomandiamo che
@@ -45,16 +49,32 @@ impatto e ri-usabilità:
    opportuna;
 4. se il processo di generazione del prodotto finale non è del tutto banale,
    allora idealmente raccomandiamo un minimo sforzo di documentazione per
-   permettere all'utente di riprodurlo;
-5. se possibile, raccomandiamo che il repositorio sia ospitato da un servizio
-   che rispetti la libertà dell'utente, come [Codeberg](https://codeberg.org).
+   permettere all'utente di riprodurlo.
+
+
+## Codeberg vs. Github
+
+Se ospiti il codice sorgente del tuo progetto nella forma di un repositorio
+utilizzando un servizio di hosting, considera la possibilità di scegliere
+un servizio che rispetti la libertà dell'utente,
+come [Codeberg](https://codeberg.org).
+
+Tutte le persone alla moda sono su [Github](https://github.com/), ne siamo
+perfettamente consapevoli. Molte delle persone che aderiscono a Tālĕae
+utilizzano Github per le cose che non è facile migrare altrove. La didattica
+è uno di quei casi d'uso in cui migrare è semplice.
+
+Per maggiori informazioni, [questa](https://sfconservancy.org/GiveUpGitHub/)
+è una lettura interessante.
+
+
+## Consigli pratici
 
 Capiamo perfettamente che ciascuna di queste raccomandazioni implica un carico
 di lavoro aggiuntivo sull'autore, e tuttavia riteniamo che, ove praticamente
 possibile, questo sforzo addizionale sia più che bilanciato dall'impatto
-positivo sulla comunità.
-
-Uno degli scopi di questo progetto è proprio abbassare il livello di ingresso
-a queste (che noi consideriamo) buone pratiche!
+positivo sulla comunità. Le nostre guide pratiche sono pensate proprio per
+abbassare il livello di ingresso a queste (che noi consideriamo) buone pratiche!
 
 [Vai alle guide pratiche](tutorials.md){ .md-button .md-button }
+
