@@ -157,6 +157,16 @@ class Author(BaseModel):
         """
         return f"{self.name} {self.surname}"
 
+    def is_student(self) -> bool:
+        """Return True if the author is a student, False otherwise.
+
+        Returns
+        -------
+        bool
+            True if the author is a student, False otherwise.
+        """
+        return self.role == Role.STUDENT
+
 
 class Licensing(BaseModel):
 
@@ -316,6 +326,19 @@ class Product(BaseModel):
             The list of authors, in the form of "A. Surname, B. Surname, C. Surname".
         """
         return ", ".join(author.short_name() for author in self.authors)
+
+    def is_grassroots(self) -> bool:
+        """Return True if the product is a grass-roots initiative, False otherwise.
+
+        A product is considered a grass-roots initiative if all its authors are
+        students. This is a simple heuristic, and may not be accurate in all cases.
+
+        Returns
+        -------
+        bool
+            True if the product is a grass-roots initiative, False otherwise.
+        """
+        return all(author.is_student() for author in self.authors)
 
 
 

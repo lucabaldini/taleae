@@ -12,7 +12,7 @@
 | [Michelangelo Leoni](michelangelo-leoni.md) | Dipartimento di Fisica | 1 |
 | [Liana Martinelli](liana-martinelli.md) | Dipartimento di Fisica | 1 |
 | [Jacopo Omodei](jacopo-omodei.md) | Dipartimento di Fisica | 1 |
-| [Giacomo Pannocchia](giacomo-pannocchia.md) | Dipartimento di Fisica | 0 |
+| [Giacomo Pannocchia](giacomo-pannocchia.md) | Dipartimento di Fisica | 5 |
 | [Emanuele Paolini](emanuele-paolini.md) | Dipartimento di Matematica | 2 |
 | [Maria Chiara Pievatolo](maria-chiara-pievatolo.md) | Dipartimento di Scienze Politiche | 1 |
 | [Alessandro Pitanti](alessandro-pitanti.md) | Dipartimento di Fisica | 1 |

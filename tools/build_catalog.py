@@ -44,25 +44,35 @@ def build_catalog():
 
     product_template = env.get_template("product.md.j2")
     products_template = env.get_template("products.md.j2")
+    grassroots_template = env.get_template("grassroots.md.j2")
     author_template = env.get_template("author.md.j2")
     authors_template = env.get_template("authors.md.j2")
 
     author_registry = load_author_registry(_CATALOG_DIR / "_authors.yaml")
-    products = []
+
+    grasstops_products = []
+    grassroots_products = []
+
     for source in sorted(_CATALOG_DIR.glob("*.yaml")):
         stem = source.stem
         # Skip the special files that start with an underscore.
         if stem.startswith("_"):
             continue
         product = load_product(source, author_registry)
-        products.append(product)
+        if product.is_grassroots():
+            grassroots_products.append(product)
+        else:
+            grasstops_products.append(product)
         for author in product.authors:
             author.products.append(product)
         rendered = product_template.render(product=product)
         (_PRODUCTS_DIR / f"{stem}.md").write_text(rendered, encoding="utf-8")
 
-    rendered = products_template.render(products=products)
+    rendered = products_template.render(products=grasstops_products)
     (_PRODUCTS_DIR / "index.md").write_text(rendered, encoding="utf-8")
+
+    rendered = grassroots_template.render(products=grassroots_products)
+    (_PRODUCTS_DIR / "grassroots.md").write_text(rendered, encoding="utf-8")
 
     for author_id, author in author_registry.items():
         rendered = author_template.render(author=author)
