@@ -267,33 +267,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../manifesto/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Manifesto
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../products/" class="md-nav__link">
         
   
@@ -390,10 +363,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
             
   
   
@@ -411,8 +384,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -504,6 +477,28 @@
     <span class="md-ellipsis">
       
         Buone pratiche
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#codeberg-vs-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Codeberg vs. Github
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consigli-pratici" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consigli pratici
       
     </span>
   </a>
@@ -602,6 +597,28 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#codeberg-vs-github" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Codeberg vs. Github
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consigli-pratici" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consigli pratici
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -620,21 +637,27 @@
 
 
 <h1 id="contribuire-a-taleae">Contribuire a Tālĕae</h1>
-<p>Chiunque abbia del materiale che si allinei con le idee di base del
-progetto è benvenuto&mdash;l'unico modo per avere veramente visibilità
-è raggiungere la massa critica.</p>
+<p>Chiunque abbia del materiale di interesse per la didattica universitaria che
+si allinei con le idee di base del progetto è benvenuto.</p>
 <p>Il modello che abbiamo in mente è semplice: <em>ciascun progetto vive
-indipendentemente, e Tālĕae funge semplicemente da aggregatore</em>.
-All'interno di ciascun progetto, i proprietari hanno piena autonomia
-di struttura e contenuti. La parola d'ordine è <em>elasticità</em>.</p>
+indipendentemente, e Tālĕae funge semplicemente da aggregatore</em>. All'interno
+di ciascun progetto, i proprietari hanno piena autonomia (e, va da sé,
+piena responsabilità) sulla struttura e sui contenuti.</p>
+<div class="admonition warning">
+<p class="admonition-title">In costruzione</p>
+<p>In attesa che il progetto prenda forma, non abbiamo ancora un meccanismo
+standardizzato di adesione. Nel frattempo chiunque volesse segnalare un
+progetto da aggiungere a Tālĕae può mandare un'email a
+<a href="mailto:luca.baldini@pi.infn.it">Luca Baldini</a>.</p>
+</div>
 <h2 id="requisiti-minimi">Requisiti minimi</h2>
 <p>Ci sono due semplici cose che ci sentiamo di richiedere in modo non
 negoziabile, per non vanificare lo scopo ultimo del progetto:</p>
 <ol>
 <li>il materiale deve essere rilasciato sotto una licenza ben identificabile
    che, oltre alla consultazione, permetta la modifica e la
-   redistribuzione&mdash;<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
-   è la scelta ovvia, ma ci sono molte opzioni;</li>
+   redistribuzione, come ad esempio
+   <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>;</li>
 <li>il materiale non deve includere file in formati proprietari, o che non siano
    leggibili con strumenti <em>liberi</em>.</li>
 </ol>
@@ -642,9 +665,8 @@ negoziabile, per non vanificare lo scopo ultimo del progetto:</p>
 personale, tanto per fare un esempio, è perfettamente accettabile, purché il
 testo soddisfi la condizione 1. qui sopra.</p>
 <h2 id="buone-pratiche">Buone pratiche</h2>
-<p>Detto questo, il nostro progetto punta ad essere molto di più di una semplice
-collezione di link a file pdf. Queste sono le raccomandazioni per massimizzare
-impatto e ri-usabilità:</p>
+<p>Detto questo, Tālĕae punta ad essere più di una semplice collezione di link a
+file pdf. Queste sono le raccomandazioni per massimizzare impatto e ri-usabilità:</p>
 <ol>
 <li>se il materiale nella sua forma finale è ottenuto processando file
    sorgente di tipo diverso (e.g., LaTeX, o markup), allora raccomandiamo che
@@ -658,16 +680,25 @@ impatto e ri-usabilità:</p>
    opportuna;</li>
 <li>se il processo di generazione del prodotto finale non è del tutto banale,
    allora idealmente raccomandiamo un minimo sforzo di documentazione per
-   permettere all'utente di riprodurlo;</li>
-<li>se possibile, raccomandiamo che il repositorio sia ospitato da un servizio
-   che rispetti la libertà dell'utente, come <a href="https://codeberg.org">Codeberg</a>.</li>
+   permettere all'utente di riprodurlo.</li>
 </ol>
+<h2 id="codeberg-vs-github">Codeberg vs. Github</h2>
+<p>Se ospiti il codice sorgente del tuo progetto nella forma di un repositorio
+utilizzando un servizio di hosting, considera la possibilità di scegliere
+un servizio che rispetti la libertà dell'utente,
+come <a href="https://codeberg.org">Codeberg</a>.</p>
+<p>Tutte le persone alla moda sono su <a href="https://github.com/">Github</a>, ne siamo
+perfettamente consapevoli. Molte delle persone che aderiscono a Tālĕae
+utilizzano Github per le cose che non è facile migrare altrove. La didattica
+è uno di quei casi d'uso in cui migrare è semplice.</p>
+<p>Per maggiori informazioni, <a href="https://sfconservancy.org/GiveUpGitHub/">questa</a>
+è una lettura interessante.</p>
+<h2 id="consigli-pratici">Consigli pratici</h2>
 <p>Capiamo perfettamente che ciascuna di queste raccomandazioni implica un carico
 di lavoro aggiuntivo sull'autore, e tuttavia riteniamo che, ove praticamente
 possibile, questo sforzo addizionale sia più che bilanciato dall'impatto
-positivo sulla comunità.</p>
-<p>Uno degli scopi di questo progetto è proprio abbassare il livello di ingresso
-a queste (che noi consideriamo) buone pratiche!</p>
+positivo sulla comunità. Le nostre guide pratiche sono pensate proprio per
+abbassare il livello di ingresso a queste (che noi consideriamo) buone pratiche!</p>
 <p><a class="md-button md-button" href="../tutorials/">Vai alle guide pratiche</a></p>
 
 
