@@ -1,0 +1,11 @@
+# Didattica dal basso
+
+Il catalogo contiene {{ products | length }} opere.
+
+| Autori | Titolo | Link |
+|--------|--------|------|
+{% for product in products -%}
+| {{ product.author_list() }} | [{{ product.title }}]({{ product.id }}.md) | {% for name, url in product.links.items() -%}
+ [{{ name }}]({{ url }}){% if not loop.last %}, {% endif %}
+{%- endfor %} |
+{% endfor %}
