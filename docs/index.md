@@ -23,8 +23,13 @@ che possa riprodursi. Per talea, appunto.
 come mero sinonimo di *gratuitamente*), con sorgenti editabili e, ove
 possibile, meccanismi di compilazione e rilascio riproducibili.
 
+[Catalogo](products/index.md){ .md-button }
+[Didattica dal basso](products/grassroots.md){ .md-button }
+[Autori](authors/index.md){ .md-button }
+
+
 **Per gli autori**: una serie di semplici linee guida e di istruzioni tecniche
 dettagliate su come contribuire praticamente al progetto.
 
-[Esplora il catalogo](products/index.md){ .md-button .md-button }
-[Esplora gli autori](authors/index.md){ .md-button .md-button }
+[Contribuire](contribute.md){ .md-button }
+[Guide pratiche](tutorials.md){ .md-button }
