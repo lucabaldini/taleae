@@ -62,10 +62,32 @@ come [Codeberg](https://codeberg.org).
 Tutte le persone alla moda sono su [Github](https://github.com/), ne siamo
 perfettamente consapevoli. Molte delle persone che aderiscono a Tālĕae
 utilizzano Github per le cose che non è facile migrare altrove. La didattica
-è uno di quei casi d'uso in cui migrare è semplice.
+è uno di quei casi d'uso in cui migrare è, nella maggior parte dei casi,
+semplice.
 
 Per maggiori informazioni, [questa](https://sfconservancy.org/GiveUpGitHub/)
 è una lettura interessante.
+
+
+## Nota sull'uso dell'intelligenza artificiale
+
+L'uso (o il non uso) dell'intelligenza artificiale generativa nella stesura del
+materiale è una libera decisione degli autori.
+
+Vale la pena notare, però, che i
+[terms of use](https://codeberg.org/Codeberg/org/src/branch/main/TermsOfUse.md)
+di Codeberg prevedono esplicitamente la clausola:
+
+*You must not share projects that mostly consist of code written by "generative AI"-tools (including services such as Claude, OpenAI Codex). Such projects having an unclear copyright status [...] and furthermore have little safeguards to ensure that they do not include harmful code.*
+
+[Questo articolo](https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html)
+è una buona risorsa sulla questione, e nell'ultimo capoverso fornisce una lista
+di casi d'uso in cui cui probabilmente è meglio utilizzare un servizio diverso.
+(Questo, va da sé, non impedisce di ospitare il link al risultato finale su
+Tālĕae.)
+
+
+
 
 
 ## Consigli pratici
